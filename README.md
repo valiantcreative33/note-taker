@@ -20,13 +20,13 @@ Note Taker is a lightweight, simple online note taking application that allows a
 ## License
 This application is under the MIT license.
 
-## Image   
+## Mockup   
 ![An mockup example of the Note Taker application](./public/assets/images/mockup.png)
 
 ## Questions
-Find me on Github: https://github.com/valiantcreative33.
-If you have additional questions, please feel free to reach out to me on LinkedIn at https://www.linkedin.com/in/valiantcreative/, or via email at ruben@valiantcreative.net.
+You can find me on Github: https://github.com/valiantcreative33, if you have any questions.
+If you have additional questions, you can also find me on LinkedIn at https://www.linkedin.com/in/valiantcreative/, or via email at ruben@valiantcreative.net.
 
 ## Credits
-* Starter code, guidance and tutorship by [UCF Coding Bootcamp](https://github.com/coding-boot-camp).
+* Starter code, guidance and tutorship by [UCF Coding Bootcamp](https://github.com/coding-boot-camp/miniature-eureka).
 * Application created by Ruben Matamoros.
