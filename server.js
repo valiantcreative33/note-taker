@@ -1,9 +1,11 @@
 const express = require('express');
 const PORT = process.env.PORT || 3300;
-const { db } = require('./db/db.json');
+const db = require('./db/db.json');
+const fs = require('fs');
 const app = express();
 const apiRoutes = require('./routes/apiRoutes');
 const htmlRoutes = require('./routes/htmlRoutes');
+const path = require('path');
 // < MIDDLEWARE >
 // parse incoming string or array data
 app.use(express.urlencoded({ extended: true }));
