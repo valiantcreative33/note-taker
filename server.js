@@ -6,13 +6,13 @@ const app = express();
 const apiRoutes = require('./routes/apiRoutes');
 const htmlRoutes = require('./routes/htmlRoutes');
 const path = require('path');
-// < MIDDLEWARE >
+
+// Express.js middleware
+app.use(express.static('public'));
 // parse incoming string or array data
 app.use(express.urlencoded({ extended: true }));
 // parse incoming JSON data
 app.use(express.json());
-// Express.js middleware
-app.use(express.static('public'));
 // parse incoming Routes
 app.use('/api', apiRoutes);
 app.use('/', htmlRoutes);
